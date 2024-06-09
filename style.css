@@ -1,0 +1,662 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Body styles */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+    font-family: Karla, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+
+/* Top section */
+
+.top {
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 9px 0;
+}
+
+.top a {
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+/* Middle section */
+
+.mid {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.mid a {
+    text-decoration: none;
+    color: #000;
+    font-size: x-large;
+}
+
+/* Bottom section - make it sticky */
+
+.bot {
+    width: 100%;
+    height: auto;
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.bot1,
+.bot2,
+.bot3 {
+    justify-content: space-around;
+    padding: 10px 0;
+    margin-left: 10px;
+}
+
+.bot1,
+.bot3 {
+    font-size: 0.8em;
+    font-family: Arial, sans-serif;
+}
+
+.bot2 {
+    font-family: 'Brush Script MT', cursive;
+}
+
+.bot1 a,
+.bot2 a,
+.bot3 a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url("../images/im.jfif");
+    background-size: cover;
+    background-position: center;
+}
+header h2{
+    color: purple;
+}
+header h5 {
+    text-align: center;
+    padding-top: 250px;
+    color: rgb(255, 255, 255);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+}
+header div a {
+    text-decoration: none;
+}
+
+/* Section */
+
+.Category-block {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Category-block .cat-content {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.Category-block div div {
+    width: 304px;
+    height: 200px;
+    margin: 10px;
+    flex: 1 0 23%;
+    box-sizing: border-box;
+}
+
+/* Section Styling */
+
+.fashion-cat{
+    background-image: url("../images/FILES.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.fashion-cat h3 {
+    color: rgb(255, 0, 0);
+}
+
+.inspiration-cat {
+    background-image: url("../images/farmhouse-1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.inspiration-cat h3 {
+    color: rgb(255, 238, 0);
+}
+
+.food-cat {
+    background-image: url("../images/HOUSES.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.food-cat h3 {
+    color: rgb(0, 255, 0);
+}
+
+.travel-cat {
+    background-image: url("../images/RESIDENTIAL.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.travel-cat h3 {
+    color: rgb(255, 0, 0);
+}
+.music-cat {
+    background-image: url("../images/download.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.music-cat h3 {
+    color: oldlace;
+}
+
+.about-cat {
+    background-image: url("../images/GODAM.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-cat h3 {
+    color: rgb(183, 0, 255);
+}
+
+.content-cat{
+    background-image: url("../images/FACTORIES.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.content-cat h3 {
+    color: rgb(255, 1, 200);
+}
+
+.shop-cat {
+    background-image: url("../images/SHOP.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.shop-cat h3 {
+    color: rgb(68, 0, 255);
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Popular */
+
+.popular {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 70px 0;
+}
+
+.popular h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.popular-outer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.popular-outer div {
+    width: 300px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    display: flex;
+}
+
+.popular .popular-outer .p-post-1 .p-post-img1 {
+    width: 150px;
+    height: 150px;
+    background: url("../images/farm.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular .popular-outer .p-post-1 .p-post-img2 {
+    width: 150px;
+    height: 150px;
+    background: url("../images/CONSTRUCTION.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular .popular-outer .p-post-1 .p-post-img3 {
+    width: 150px;
+    height: 150px;
+    background: url("../images/rent.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular .popular-outer .p-post-1 .p-post-img4 {
+    width: 150px;
+    height: 150px;
+    background: url("../images/zari.jfif");
+    background-size: cover;
+    background-position: center;
+}
+
+.popular .popular-outer .p-post-1 .p-post-content {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255)
+}
+
+/* About */
+
+.about-me {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: left;
+}
+
+.about-left {
+    flex: 0 0 65%;
+}
+
+.about-left img {
+    width: 800px;
+    height: 550px;
+    margin-left: 16px;
+}
+
+.about-right {
+    flex: 0 0 35%;
+}
+
+.about-right img {
+    width: 90%;
+    height: 215px;
+    margin-left: 5.3%;
+}
+
+.about-right h2 {
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+}
+
+.about-right p {
+    font-size: medium;
+    text-align: justify;
+    margin: 10px;
+}
+
+.about-right .about-icon i {
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 37.5px;
+    color: #000;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.about-right .about-icon i:hover {
+    background-color: rgb(0, 255, 234);
+    color: #ffffff;
+}
+
+/* Fashion */
+
+.fashion {
+    height: 500px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: left;
+
+}
+
+.fashion1 h5 {
+    text-decoration: underline;
+}
+
+.fashion1 {
+    width: 65%;
+    height: auto;
+}
+
+.fashion1 button {
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.fashion1 button:hover {
+    text-decoration: underline;
+}
+
+.fashion1 p {
+    width: 85%;
+    text-align: justify;
+}
+
+.fashion1 a {
+    font-size: small;
+}
+
+.fashion1 a:hover {
+    color: gray;
+}
+
+.fashion2 {
+    width: 35%;
+    height: auto;
+}
+
+.fashion2 h5 {
+    text-align: center;
+}
+
+.img-p {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+}
+
+.img-p img {
+    width: 100px;
+    display: block;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+
+.img-p a {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2px 5px;
+    text-align: left;
+}
+
+/* Categories-Six-img */
+
+.categories-six-img {
+    display: flex;
+    width: 100%;
+    min-height: 1900px;
+
+}
+
+.categories {
+    flex: 0 0 32%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    align-self: flex-start;
+
+}
+
+.categories>div {
+    flex: 0;
+}
+
+.categories h3 {
+    text-align: center;
+}
+
+.categories p {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.categories input,
+.categories button {
+    display: block;
+    margin: 0px 0;
+    width: 100%;
+}
+
+.categories input {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.categories1 p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.categories button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
+.categories button:hover {
+    border: 2px solid #000000;
+    color: #000;
+    background-color: #fff;
+}
+
+/* six-img-d */
+
+.six-img-d {
+    flex: 0 0 65%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.six-img-d>div {
+    flex: 1 0 50%;
+}
+.six-img-d1 h5,
+.six-img-d2 h5,
+.six-img-d3 h5,
+.six-img-d4 h5,
+.six-img-d5 h5,
+.six-img-d6 h5 {
+    text-decoration: underline;
+    margin-left: 17px;
+}
+
+.six-img-d1 h2,
+.six-img-d2 h2,
+.six-img-d3 h2,
+.six-img-d4 h2,
+.six-img-d5 h2,
+.six-img-d6 h2 {
+    margin-left: 17px;
+}
+
+.six-img-d1,
+.six-img-d2,
+.six-img-d3,
+.six-img-d4,
+.six-img-d5,
+.six-img-d6 {
+    width: 20%;
+    height: auto;
+}
+
+.six-img-d1 button,
+.six-img-d2 button,
+.six-img-d3 button,
+.six-img-d4 button,
+.six-img-d5 button,
+.six-img-d6 button {
+    border: none;
+    color: #000000;
+    background-color: #ffffff;
+    margin-left: px;
+}
+
+.six-img-d1 button:hover,
+.six-img-d2 button:hover,
+.six-img-d3 button:hover,
+.six-img-d4 button:hover,
+.six-img-d5 button:hover,
+.six-img-d6 button:hover {
+    text-decoration: underline;
+}
+
+.six-img-d1 p,
+.six-img-d2 p,
+.six-img-d3 p,
+.six-img-d4 p,
+.six-img-d5 p,
+.six-img-d6 p {
+    width: 85%;
+    text-align: justify;
+    margin-left: 17px;
+}
+
+.six-img-d1 a,
+.six-img-d2 a,
+.six-img-d3 a,
+.six-img-d4 a,
+.six-img-d5 a,
+.six-img-d6 a {
+    font-size: small;
+    margin-left: 17px;
+}
+
+.six-img-d1 a:hover,
+.six-img-d2 a:hover,
+.six-img-d3 a:hover,
+.six-img-d4 a:hover,
+.six-img-d5 a:hover,
+.six-img-d6 a:hover {
+    color: gray;
+}
+
+/* Footer */
+
+.footer-p {
+    padding: 0px;
+    text-align: center;
+}
+
+.footer-t {
+    width: 100%;
+    height: 130px;
+}
+
+.footer-m {
+    background-color: #000;
+    width: 100%;
+    height: 320px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+
+.footer-m div {
+    flex: 1;
+    margin-left: 70px;
+    margin-top: 50px;
+    min-width: 200px;
+    text-align: left;
+}
+
+.footer-m h5 {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.footer-m p {
+    text-align: justify;
+}
+
+.footer-m button {
+    color: #ffffff;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    margin: 1px 0;
+    padding: 5px;
+    text-align: left;
+}
+
+.footer-m button:hover {
+    color: #000000;
+    background-color: red;
+    border: 2px solid #ffffff;
+}
+
+.footer-b {
+    background-color: #000;
+    color: white;
+    width: 100%;
+    height: 110px;
+}
+
+.footer-m3 a {
+    color: white;
+}
+
+.custom-hr {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.footer-b i {
+    color: white;
+    position: relative;
+    display: inline-block;
+}
